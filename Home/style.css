@@ -1,4 +1,4 @@
-/* Using CSS Variables - Good for Evaluation */
+
 :root {
     --primary-green: #1B4332;
     --secondary-green: #40916C;
@@ -23,7 +23,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -63,7 +63,7 @@ body {
     cursor: pointer;
 }
 
-/* Hero */
+
 .hero {
     height: 80vh;
     background: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1000') center/cover;
@@ -116,7 +116,7 @@ body {
     border-radius: 5px;
 }
 
-/* Stats Bar */
+
 .stats-bar {
     display: flex;
     justify-content: space-around;
@@ -125,7 +125,7 @@ body {
     text-align: center;
 }
 
-/* Transparency Section */
+
 .transparency {
     padding: 80px 8%;
     background: white;
@@ -156,7 +156,7 @@ body {
     border: 2px dashed var(--secondary-green);
 }
 
-/* Campaign Cards */
+
 .campaigns { padding: 80px 8%; }
 
 .sec-title {
@@ -226,7 +226,7 @@ body {
     cursor: pointer;
 }
 
-/* How to Help */
+
 .how-to {
     padding: 60px 8%;
     text-align: center;
@@ -249,7 +249,7 @@ body {
     margin: 0 auto 15px;
 }
 
-/* Footer */
+
 footer {
     padding: 50px 8% 20px;
     background: var(--text-dark);
@@ -260,7 +260,6 @@ footer {
 .f-links { margin: 20px 0; }
 .f-links a { color: var(--bg-alt); text-decoration: none; margin: 0 10px; }
 
-/* Responsive */
 @media (max-width: 768px) {
     .nav-links { display: none; }
     .trans-container, .card-wrapper, .steps-grid { flex-direction: column; }
