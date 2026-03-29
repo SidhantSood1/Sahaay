@@ -9,22 +9,21 @@
 
   <body>
     <!-- NAVBAR -->
-   <nav class="navbar">
-        <a href="/Home/index.html" style="text-decoration: none; "><div class="logo">Sahaay</div></a>
-        <ul class="nav-links">
-            <li><a href="/Home/index.html">Home</a></li>
-            <li><a href="/Catalogue/catalogue.html">Catalogue</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#how">How to Help</a></li>
-            <li><a href="#volunteer">Volunteer</a></li>
-        </ul>
-        <button class="nav-donate">Donate Now</button>
+    <nav class="navbar">
+      <div class="logo">Sahaay</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#catalogue">Catalogue</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#how">How to Help</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+      </ul>
+      <button class="nav-donate">Donate Now</button>
     </nav>
 
     <!-- ===== ABOUT SECTION ===== -->
     <section class="about">
       <div class="about-container">
-        <!-- LEFT SIDE CONTENT -->
         <div class="about-content">
           <h3 class="about-sub">Know About Us</h3>
 
@@ -47,9 +46,8 @@
           <button class="about-btn">Donate Now</button>
         </div>
 
-        <!-- RIGHT SIDE VIDEO -->
         <div class="about-video">
-          <video autoplay muted loop>
+          <video autoplay muted loop playsinline>
             <source src="ASSETS/video1.mp4" type="video/mp4" />
           </video>
         </div>
@@ -121,8 +119,19 @@
         </p>
         <button class="btn-primary">Support</button>
       </div>
+
+      <div class="main-section-child about-card">
+        <img src="Assets/image7.png" />
+        <h3 class="card-title">Empowering Education for Every Child</h3>
+        <p class="card-desc">
+          Your support helps provide quality learning, books, and guidance,
+          empowering children to grow, succeed, and build a brighter future.
+        </p>
+        <button class="btn-primary">Support</button>
+      </div>
     </section>
 
+    <!-- IMPACT -->
     <section class="impact">
       <h2>Our Impact</h2>
 
@@ -179,110 +188,7 @@
       </div>
     </section>
 
-    <!-- ===== NEW: CAMPAIGN CARDS ===== -->
-    <section class="campaigns">
-      <h2>Ongoing Campaigns</h2>
-
-      <div class="campaign-list">
-        <div class="campaign-card">
-          <div class="campaign-img">
-            <img src="Assets/image7.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Food Support</span>
-            <h3>Feed the Hungry</h3>
-            <p>Help us provide daily meals to children in need.</p>
-            <div class="campaign-meta">
-              <p>₹70,000 raised</p>
-              <p>120 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-
-        <div class="campaign-card reverse">
-          <div class="campaign-img">
-            <img src="Assets/image8.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Education</span>
-            <h3>Support Education</h3>
-            <p>Help children access books and learning resources.</p>
-            <div class="campaign-meta">
-              <p>₹55,000 raised</p>
-              <p>85 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-
-        <div class="campaign-card">
-          <div class="campaign-img">
-            <img src="Assets/image9.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Health</span>
-            <h3>Medical Help</h3>
-            <p>Provide healthcare and medical assistance.</p>
-            <div class="campaign-meta">
-              <p>₹40,000 raised</p>
-              <p>60 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-
-        <div class="campaign-card reverse">
-          <div class="campaign-img">
-            <img src="Assets/image10.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Clothing Support</span>
-            <h3>Warm Clothes Drive</h3>
-            <p>Provide clothes to children and families in need.</p>
-            <div class="campaign-meta">
-              <p>₹65,000 raised</p>
-              <p>95 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-
-        <div class="campaign-card">
-          <div class="campaign-img">
-            <img src="Assets/image11.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Shelter</span>
-            <h3>Safe Shelter Initiative</h3>
-            <p>Help provide safe housing for homeless children.</p>
-            <div class="campaign-meta">
-              <p>₹50,000 raised</p>
-              <p>70 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-
-        <div class="campaign-card reverse">
-          <div class="campaign-img">
-            <img src="Assets/image12.png" />
-          </div>
-          <div class="campaign-content">
-            <span>Clean Water</span>
-            <h3>Water for Life</h3>
-            <p>Ensure access to clean and safe drinking water.</p>
-            <div class="campaign-meta">
-              <p>₹45,000 raised</p>
-              <p>60 donors</p>
-            </div>
-            <button class="btn-primary">Donate Now</button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- =======Team section======= -->
+    <!-- ===== TEAM (AB YAHA HAI) ===== -->
     <section class="team-section">
       <div class="team-container">
         <div class="team-card">
@@ -327,14 +233,117 @@
       </div>
     </section>
 
-    <!-- ===== NEW: DONATION CTA ===== -->
+    <!-- ===== CAMPAIGNS ===== -->
+    <section class="campaigns">
+      <h2>Ongoing Campaigns</h2>
+
+      <div class="campaign-list">
+        <div class="campaign-card">
+          <div class="campaign-img">
+            <img src="Assets/image8.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Food Support</span>
+            <h3>Feed the Hungry</h3>
+            <p>Help us provide daily meals to children in need.</p>
+            <div class="campaign-meta">
+              <p>₹70,000 raised</p>
+              <p>120 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+
+        <div class="campaign-card reverse">
+          <div class="campaign-img">
+            <img src="Assets/image9.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Education</span>
+            <h3>Support Education</h3>
+            <p>Help children access books and learning resources.</p>
+            <div class="campaign-meta">
+              <p>₹55,000 raised</p>
+              <p>85 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+
+        <div class="campaign-card">
+          <div class="campaign-img">
+            <img src="Assets/image10.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Health</span>
+            <h3>Medical Help</h3>
+            <p>Provide healthcare and medical assistance.</p>
+            <div class="campaign-meta">
+              <p>₹40,000 raised</p>
+              <p>60 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+
+        <div class="campaign-card reverse">
+          <div class="campaign-img">
+            <img src="Assets/image11.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Clothing Support</span>
+            <h3>Warm Clothes Drive</h3>
+            <p>Provide clothes to children and families in need.</p>
+            <div class="campaign-meta">
+              <p>₹65,000 raised</p>
+              <p>95 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+
+        <div class="campaign-card">
+          <div class="campaign-img">
+            <img src="Assets/image12.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Shelter</span>
+            <h3>Safe Shelter Initiative</h3>
+            <p>Help provide safe housing for homeless children.</p>
+            <div class="campaign-meta">
+              <p>₹50,000 raised</p>
+              <p>70 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+
+        <div class="campaign-card reverse">
+          <div class="campaign-img">
+            <img src="Assets/image13.png" />
+          </div>
+          <div class="campaign-content">
+            <span>Clean Water</span>
+            <h3>Water for Life</h3>
+            <p>Ensure access to clean and safe drinking water.</p>
+            <div class="campaign-meta">
+              <p>₹45,000 raised</p>
+              <p>60 donors</p>
+            </div>
+            <button class="btn-primary">Donate Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
     <section class="donation-cta">
       <h2>Be the Reason Someone Smiles Today</h2>
       <p>Your small help can change someone's life.</p>
       <button class="btn-primary">Donate Now</button>
     </section>
 
-    <!-- ===== Footer section ===== -->
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="footer-top">
         <div class="footer-brand">

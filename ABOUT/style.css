@@ -46,7 +46,7 @@ body {
 .logo {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--primary-color);
+  color: var(--primary-green);
 }
 
 .nav-links {
@@ -569,4 +569,54 @@ body {
   color: var(--bg-alt);
   text-decoration: none;
   margin: 0 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+}
+
+
+@media (max-width: 3840px) {
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0;
+  }
+  .about-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .about-video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .about-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+  }
+  .about-content {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    padding: 10rem 1rem;
+    text-align: justify;
+    color: white;
+  }
+
+  .about-title,
+  .about-text {
+    color: white;
+  }
+
 }
