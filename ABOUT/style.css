@@ -46,7 +46,7 @@ body {
 .logo {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--primary-green);
+  color: var(--primary-color);
 }
 
 .nav-links {
