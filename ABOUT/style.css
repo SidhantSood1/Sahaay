@@ -11,9 +11,6 @@
   --font-alt: "Helvetica Neue", Arial, sans-serif;
 }
 
-
-
-
 /* ===== GLOBAL RESET ===== */
 * {
   margin: 0;
@@ -26,18 +23,12 @@ body {
   overflow-x: hidden;
 }
 
-
-
 /* ===== BODY ===== */
 body {
   font-family: var(--font-alt);
   background-color: var(--bg-color);
   color: var(--text-main);
 }
-
-
-
-
 
 /* ===== NAVBAR ===== */
 .navbar {
@@ -79,18 +70,11 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
-
 /* ===== ABOUT SECTION ===== */
 .about {
   padding: 60px 8%;
   background: var(--bg-color);
 }
-
 
 .about-container {
   display: grid;
@@ -98,7 +82,6 @@ body {
   gap: 40px;
   align-items: center;
 }
-
 
 .about-sub {
   color: var(--secondary-color);
@@ -118,7 +101,6 @@ body {
   line-height: 1.6;
 }
 
-
 .about-btn {
   padding: 10px 20px;
   border: none;
@@ -128,18 +110,12 @@ body {
   border-radius: 5px;
 }
 
-
 .about-video video {
   width: 100%;
   height: 350px;
   object-fit: cover;
   border-radius: 10px;
 }
-
-
-
-
-
 
 /* ABOUT SECTION STYLING */
 .main-section1 {
@@ -220,11 +196,6 @@ body {
   font-weight: 500;
 }
 
-
-
-
-
-
 /* IMPACT SECTION */
 .impact {
   padding: 5rem 6%;
@@ -288,9 +259,6 @@ body {
 .impact-box:hover::before {
   opacity: 1;
 }
-
-
-
 
 /* CAMPAIGNS */
 .campaigns {
@@ -389,12 +357,6 @@ body {
   margin-top: auto;
 }
 
-
-
-
-
-
-
 /* TEAM SECTION STYLING */
 .team-section {
   padding: 5rem 6%;
@@ -477,13 +439,6 @@ body {
   padding: 0 5px;
 }
 
-
-
-
-
-
-
-
 /* DONATION CTA STYLING */
 .donation-cta {
   padding: 6rem 2rem;
@@ -549,8 +504,6 @@ body {
   transform: scale(1.08);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
-
-
 
 /* ===== Footer ===== */
 .footer {
