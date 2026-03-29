@@ -292,7 +292,7 @@
             color: white;
         }
 
-        /* ---- NEW: testimonials ---- */
+        
         .testimonials {
             padding: 80px 8%;
             background: white;
@@ -365,7 +365,6 @@
             margin: 0 auto 15px;
         }
 
-        /* ---- NEW: volunteer ---- */
         .volunteer {
             padding: 80px 8%;
             background: white;
@@ -418,7 +417,7 @@
             color: #666;
         }
 
-        /* ---- NEW: faq ---- */
+       
         .faq {
             padding: 80px 8%;
             background: var(--bg-alt);
@@ -459,7 +458,7 @@
             line-height: 1.6;
         }
 
-        /* ---- NEW: cta banner ---- */
+        
         .cta-banner {
             background: var(--primary-green);
             padding: 70px 8%;
