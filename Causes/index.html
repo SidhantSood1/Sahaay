@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Causes | Sahaay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Sahaay</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Catalogue</a></li>
+            <li><a href="../ABOUT/index.html">About</a></li>
+            <li><a href="../HowToHelp/Index.html">How to Help</a></li>
+            <li><a href="../Volunteer/index.html">Volunteer</a></li>
+        </ul>
+        <button class="nav-donate">Donate Now</button>
+    </nav>
+
+    <div class="page-layout">
+
+        <div class="causes-side">
+            <h2>All Causes</h2>
+            <br>
+            <div class="card-wrapper" id="card-wrapper">
+                <p id="empty-msg" style="color: #999;">No causes yet. Add one from the form.</p>
+            </div>
+        </div>
+
+        <div class="form-side">
+            <h2>Add a Cause</h2>
+
+            <label>Name</label>
+            <input type="text" id="inp-name" placeholder="Person's name">
+
+            <label>Category</label>
+            <select id="inp-category">
+                <option value="">-- Select --</option>
+                <option value="Health">Health</option>
+                <option value="Study">Study</option>
+                <option value="Nutrition">Nutrition</option>
+            </select>
+
+            <label>Amount Needed (₹)</label>
+            <input type="number" id="inp-amount" placeholder="e.g. 25000">
+
+            <label>Their Story</label>
+            <textarea id="inp-story" placeholder="Why do they need help?"></textarea>
+
+            <button onclick="addCause()">Add Cause</button>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

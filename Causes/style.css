@@ -1,0 +1,208 @@
+ 
+ /* HOME PAGE CSS FOR NAVBAR AND NEW DIV CARD*/
+
+ :root {
+     --primary-green: #1B4332;
+     --secondary-green: #40916C;
+     --accent-gold: #E9C46A;
+     --bg-light: #FCFBF4;
+     --bg-alt: #D8F3DC;
+     --text-dark: #081C15;
+     --text-white: #FFFFFF;
+     --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Helvetica Neue', Arial, sans-serif;
+ }
+
+ body {
+     background-color: var(--bg-light);
+     color: var(--text-dark);
+     line-height: 1.6;
+ }
+
+ .navbar {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1.2rem 8%;
+     background: var(--text-white);
+     position: sticky;
+     top: 0;
+     box-shadow: var(--shadow);
+     z-index: 1000;
+ }
+
+ .logo {
+     font-size: 2rem;
+     font-weight: bold;
+     color: var(--primary-green);
+ }
+
+ .nav-links {
+     list-style: none;
+     display: flex;
+     gap: 25px;
+ }
+
+ .nav-links a {
+     text-decoration: none;
+     color: var(--text-dark);
+     font-weight: 500;
+ }
+
+ .nav-donate {
+     background: var(--primary-green);
+     color: var(--text-white);
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+
+ .card {
+     background: white;
+     width: 300px;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .card-img {
+     height: 200px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-weight: bold;
+ }
+
+ .med-img {
+     background: linear-gradient(135deg, #1B4332, #40916C);
+ }
+
+ .edu-img {
+     background: linear-gradient(135deg, #2D6A4F, #52B788);
+ }
+
+ .food-img {
+     background: linear-gradient(135deg, #0a3622, #2D6A4F);
+ }
+
+ .card-info {
+     padding: 25px;
+ }
+
+ .category {
+     font-size: 0.7rem;
+     text-transform: uppercase;
+     color: #40916C;
+     font-weight: bold;
+ }
+
+ .card-info h3 {
+     margin: 8px 0 6px;
+ }
+
+ .card-info p {
+     font-size: 0.9rem;
+     color: #555;
+ }
+
+ .progress-bar {
+     background: #eee;
+     height: 12px;
+     border-radius: 10px;
+     margin: 15px 0 5px;
+ }
+
+ .fill {
+     background: #40916C;
+     height: 100%;
+     border-radius: 10px;
+ }
+
+ .progress-labels {
+     display: flex;
+     justify-content: space-between;
+     font-size: 0.8rem;
+     margin-bottom: 20px;
+ }
+
+ .btn-card {
+     width: 100%;
+     padding: 12px;
+     border: 2px solid #1B4332;
+     background: none;
+     color: #1B4332;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .btn-card:hover {
+     background: #1B4332;
+     color: white;
+ }
+ 
+
+ /* NEW CSS */
+ 
+ .page-layout {
+     display: flex;
+     gap: 40px;
+     padding: 50px 8%;
+ }
+
+ .causes-side {
+     flex: 2;
+ }
+
+ .form-side {
+     flex: 1;
+     background: white;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+ }
+
+ .form-side label {
+     display: block;
+     margin-bottom: 5px;
+     margin-top: 12px;
+     font-weight: 600;
+ }
+
+ .form-side input,
+ .form-side select,
+ .form-side textarea {
+     width: 100%;
+     padding: 9px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     font-size: 0.9rem;
+     font-family: inherit;
+ }
+
+ .form-side textarea {
+     height: 80px;
+     resize: vertical;
+ }
+
+ .form-side button {
+     margin-top: 16px;
+     width: 100%;
+     padding: 11px;
+     background: #1B4332;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     font-size: 1rem;
+     cursor: pointer;
+ }
+
+
+
