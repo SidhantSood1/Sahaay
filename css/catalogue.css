@@ -15,6 +15,8 @@ main {
   background-color: rgb(254, 254, 253, 0.95);
   border-radius: 9px;
   box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
   overflow: hidden;
   display: grid;
   grid-auto-flow: column;
@@ -121,6 +123,8 @@ main {
   background-color: #f5f4ed;
   color: #1b4332;
   box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
+-moz-box-shadow: 0 0 9px 3px rgb(0, 0, 0, 0.1);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -229,7 +233,7 @@ h3 {
 
   .housing {
     grid-area: housing;
-    background-image: url(assets/sq-house.png), linear-gradient(0deg, #012D1D 0%, rgba(1, 45, 29, 0.4) 50%, rgba(1, 45, 29, 0) 100%);
+    background-image: url(../assets/catalogue/sq-house.png), linear-gradient(0deg, #012D1D 0%, rgba(1, 45, 29, 0.4) 50%, rgba(1, 45, 29, 0) 100%);
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     background-size: cover;
@@ -259,6 +263,8 @@ h3 {
     height: 50px;
     border: none;
     box-shadow: 0 0 2px 2px rgb(0, 0, 0, 0.01);
+    -webkit-box-shadow: 0 0 2px 2px rgb(0, 0, 0, 0.01);
+    -moz-box-shadow: 0 0 2px 2px rgba(0,0,0,0.01);
     border-radius: 9px;
     background-color: #f5f4ed;
     font-weight: 400;
@@ -332,6 +338,8 @@ h3 {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
   width: 400px;
   min-height: 400px;
 

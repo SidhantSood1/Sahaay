@@ -5,20 +5,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cause List Grid</title>
-  <link rel="stylesheet" href="catalogue.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/catalogue.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <nav class="navbar">
-    <a href="/Home/index.html" style="text-decoration: none;"><div class="logo">Sahaay</div></a>
+    <a href="/Home/index.html" style="text-decoration: none;">
+      <div class="logo">Sahaay</div>
+    </a>
     <ul class="nav-links">
-      <li><a href="Home/index.html">Home</a></li>
-      <li><a href="Catalogue/catalogue.html">Catalogue</a></li>
-      <li><a href="ABOUT/index.html">About</a></li>
-      <li><a href="HowToHelp/Index.html">How to Help</a></li>
-      <li><a href="Volunteer/index.html">Volunteer</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catalogue.html">Catalogue</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="howToHelp.html">How to Help</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
     </ul>
     <button class="nav-donate">Donate Now</button>
   </nav>
@@ -27,15 +29,15 @@
     <section class="search-section">
       <div class="search">
         <a onclick="search()">
-          <img src="assets/loupe.png" alt="">
+          <img src="assets/catalogue/loupe.png" alt="">
         </a>
         <input type="search" placeholder="Search by Cause or Community...">
       </div>
 
       <div class="search-buttons">
-        <button onclick="relevanceSort('')"><img src="assets/sort.png">
+        <button onclick="relevanceSort('')"><img src="assets/catalogue/sort.png">
           <span>Relevance</span></button>
-        <button onclick="allOrigins('')"> <img src="assets/sort-descending.png" alt=""><span>All
+        <button onclick="allOrigins('')"> <img src="assets/catalogue/sort-descending.png" alt=""><span>All
             Origins</span></button>
 
       </div>
@@ -226,7 +228,7 @@
     </div>
   </footer>
 
-  <script src="catalogue.js" defer>
+  <script src="js/catalogue.js" defer>
   </script>
 
 </body>
